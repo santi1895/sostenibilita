@@ -1,0 +1,62 @@
+[
+    {
+        "contentUrl": "https://www.gruppotim.it/content/dam/gt/sostenibilit%C3%A0/doc-bilanci/2023/TIM-Bilancio-Sostenibilita-2023-ITA.pdf",
+        "title": "Bilancio 2023",
+        "imgSrc": "../../../assets/img/bilanci-img/bilancio-2023.jpg",
+        "year": "2023"
+    },
+    {
+        "contentUrl": "https://www.gruppotim.it/content/dam/gt/sostenibilità/doc-bilanci/2022/TIM-bilancio-sostenibilita-2022-ITA.pdf",
+        "title": "Bilancio 2022",
+        "imgSrc": "../../../assets/img/bilanci-img/bilancio-2022.jpg",
+        "year": "2022"
+    },
+    {
+        "contentUrl": "https://www.gruppotim.it/content/dam/gt/sostenibilit%C3%A0/doc-bilanci/Bilancio-di-Sostenibilita-2021.pdf",
+        "title": "Bilancio 2021",
+        "imgSrc": "../../../assets/img/bilanci-img/bilancio-2021.jpg",
+        "year": "2021"
+    },
+    {
+        "contentUrl": "https://www.gruppotim.it/content/dam/gt/sostenibilit%C3%A0/doc-bilanci/TIM-Bilancio-Sostenibilita-2020.pdf",
+        "title": "Bilancio 2020",
+        "imgSrc": "../../../assets/img/bilanci-img/bilancio-2020.png",
+        "year": "2020"
+    },
+    {
+        "contentUrl": "https://www.gruppotim.it/content/dam/gt/sostenibilit%C3%A0/doc-bilanci/DNF-TIM-2019.pdf",
+        "title": "Bilancio 2019",
+        "imgSrc": "../../../assets/img/bilanci-img/bilancio-2019.png",
+        "year": "2019"
+    },
+    {
+        "contentUrl": "https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Sostenibilita/Report_di_sostenibilita/2018/TIM-Bilancio-di-Sostenibilita-DNF-2018.pdf",
+        "title": "Bilancio 2018",
+        "imgSrc": "../../../assets/img/bilanci-img/bilancio-2018.png",
+        "year": "2018"
+    },
+    {
+        "contentUrl": "https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Sostenibilita/Report_di_sostenibilita/2017/bilancio-sostenibilita-TIM-2017-italiano.pdf",
+        "title": "Bilancio 2017",
+        "imgSrc": "../../../assets/img/bilanci-img/bilancio-2017.jpg",
+        "year": "2017"
+    },
+    {
+        "contentUrl": "https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Sostenibilita/Report_di_sostenibilita/2016/TIM-sustainability-report-2016-ita.pdf",
+        "title": "Bilancio 2016",
+        "imgSrc": "../../../assets/img/bilanci-img/bilancio-2016.png",
+        "year": "2016"
+    },
+    {
+        "contentUrl": "https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Sostenibilita/Report_di_sostenibilita/2015/sustainability-report-2015-ita.pdf",
+        "title": "Bilancio 2015",
+        "imgSrc": "../../../assets/img/bilanci-img/bilancio-2015.jpg",
+        "year": "2015"
+    },
+    {
+        "contentUrl": "https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Sostenibilita/Report_di_sostenibilita/2014/Bilancio-Sostenibilita%CC%80-2014-ITA.pdf",
+        "title": "Bilancio 2014",
+        "imgSrc": "../../../assets/img/bilanci-img/bilancio-2014.jpg",
+        "year": "2014"
+    }
+]
