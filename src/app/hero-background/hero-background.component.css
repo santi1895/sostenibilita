@@ -1,0 +1,27 @@
+/* Resetta margini */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Stile per la sezione fullwidth */
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 22vw;
+    background-image: url('../../assets/img/heroImage.jpg'); /* Placeholder */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .hero-section h1 {
+    position: absolute;
+    bottom: 40px; /* Distanza dal bordo inferiore */
+    left: 18vw;   /* Distanza dal bordo sinistro */
+    color: white; /* Colore del testo per contrasto */
+    font-size: 48px; /* Dimensione del testo */
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Ombra per migliorare la leggibilità */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }

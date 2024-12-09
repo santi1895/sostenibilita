@@ -1,0 +1,11 @@
+#single-card{
+    width: 70%!important;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+.card-body {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

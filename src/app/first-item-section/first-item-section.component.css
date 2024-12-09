@@ -1,0 +1,7 @@
+.last-report-title{
+    margin-left: 18vw;
+    font-size: 48px; /* Dimensione del testo */
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Ombra per migliorare la leggibilità */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

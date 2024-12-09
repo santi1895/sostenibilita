@@ -1,0 +1,15 @@
+<!--
+Sezione che comprende la card del primo item da mostrare
+-->
+<section class="mb-5" id="card-section">
+  <div class="py-5">
+    <h1 class="last-report-title">{{title}}</h1>
+  </div>
+  <div class="container card-container">
+    <app-first-item
+      [title]=title
+      [imgSrc]=imgSrc
+      [contentUrl]=contentUrl>
+    </app-first-item>
+  </div>
+</section>

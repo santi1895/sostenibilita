@@ -1,0 +1,42 @@
+<section class="my-5" id="card-section">
+  <!--
+  Contenitore di testata che comprende titolo, input di ricerca e tasto che permette il cambio di visualizzazione
+   -->
+  <div class="py-5">
+    <div class="container title-filter-container d-flex justify-content-between align-items-center">
+      <h1 class="text-start">Tutti i Report</h1>
+      <div class="input-group">
+        <input #searchInput type="text" class="form-control" placeholder="Cerca..." aria-label="Search">
+        <button class="btn btn-secondary" type="button" (click)="onSearchClick()">
+          <i class="bi bi-search"></i>
+        </button>
+        <button class="btn btn-primary" type="button" (click)="toggleView()">
+          <i class="bi" [ngClass]="isGridView ? 'bi-card-list' : 'bi-grid'"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!--
+  Contenitore delle cards che comprende le cards sia in modalità griglia sia in modalità lista
+  -->
+  <div class="container card-container" [ngClass]="{'grid-view': isGridView, 'list-view': !isGridView}">
+    <ng-container *ngIf="isGridView; else listTemplate">
+      <app-card
+        *ngFor="let item of dataToView"
+        [title]="item.title"
+        [imgSrc]="item.imgSrc"
+        [contentUrl]="item.contentUrl">
+      </app-card>
+    </ng-container>
+    <ng-template #listTemplate>
+      <div *ngFor="let item of dataToView" class="list-item">
+        <img [src]="item.imgSrc" alt="{{ item.title }}" class="list-img">
+        <div class="list-content">
+          <h5>{{ item.title }}</h5>
+          <a [href]="item.contentUrl" target="_blank">Scarica il documento PDF</a>
+        </div>
+      </div>
+    </ng-template>
+  </div>
+</section>
+

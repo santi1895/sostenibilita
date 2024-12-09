@@ -1,0 +1,121 @@
+.navbar-custom {
+    background-color: #003399; /* Colore blu TIM */
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-brand {
+    height: auto!important;
+  }
+  
+  .navbar-brand img {
+    width: 80px; /* Dimensione del logo */
+  }
+  .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    margin-right: 20px; /* Spaziatura tra i link */
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ff0000; /* Colore rosso al passaggio del mouse */
+  }
+
+  .search-container {
+    position: relative;
+  }
+
+  .search-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    width: 150px;
+  }
+
+  .search-box::placeholder {
+    color: white;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: white;
+  }
+
+  .language-toggle {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0px !important;
+  }
+  
+  .navbar-toggler {
+    display: none; /* Nascondi di default */
+    font-size: 24px; /* Dimensione dell'icona */
+    padding: 10px 15px; /* Spaziatura */
+    border: none; /* Rimuove bordo */
+    background-color: transparent; /* Sfondo trasparente */
+    color: white; /* Colore icona o testo */
+    cursor: pointer; /* Cambia il cursore per evidenziare l’interattività */
+    justify-self: end;
+  }
+
+  /* Media query per mostrare .navbar-toggler solo su schermi piccoli (smartphone) */
+  @media (max-width: 1200px) {
+    .navbar-toggler {
+      display: block; /* Mostra il bottone su schermi piccoli */
+    }
+    .navbar-nav.mx-auto {
+      display: block!important;
+    }
+  }
+
+  .navbar-nav {
+    list-style-type: none; /* Rimuove i pallini */
+    margin-left: 35vw;
+  }
+
+  .navbar-nav.mx-auto {
+    display: flex;
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  /* Stile per la barra di ricerca */
+  .search-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .search-box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 0.9em;
+  }
+
+  .search-icon {
+    color: #333;
+    cursor: pointer;
+  }
+
+  /* Rimuove underline e aggiusta il padding dei link */
+  .nav-link {
+    text-decoration: none;
+    padding: 8px 15px;
+    color: #333;
+  }
+  
+  #navbarNav {
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-between;
+  }
