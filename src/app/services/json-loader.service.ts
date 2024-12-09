@@ -11,7 +11,7 @@ export class JsonLoaderService {
 
   // Metodo per caricare un file JSON
   loadJsonData(fileName: string): Observable<any> {
-    const filePath = `assets/${fileName}`;
+    const filePath = `/sostenibilita/assets/${fileName}`;
     return this.http.get<any>(filePath);
   }
 }
